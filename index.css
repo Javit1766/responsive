@@ -1,0 +1,32 @@
+main{
+    width: 600px;
+    margin: auto;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 60px repeat(7,auto);
+
+    gap: 10px;
+}
+
+h2, p{
+    grid-column: 1/5;
+}
+
+h2{
+    height: 60px;
+}
+
+main div{
+    margin: auto;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 125px;
+    height: 100%;
+    min-height: 125px;
+}
+
+main div img {
+    width: 123px;
+}
